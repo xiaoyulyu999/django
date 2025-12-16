@@ -20,6 +20,7 @@ db.sqlite3-journal
 
 # IDE
 .idea/
+./.idea/*
 
 # Environment variables
 .env
@@ -29,5 +30,3 @@ db.sqlite3-journal
 # OS
 .DS_Store
 Thumbs.db
-
-.idea/*
