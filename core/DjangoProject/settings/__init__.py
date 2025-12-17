@@ -22,7 +22,9 @@ include(
     'custom.py',
     optional(LOCAL_SETTINGS_PATH),
     'envvars.py',
+    'docker.py',
 )
+
 """
 What happening in here:
 1. When Django starts, load the settings file at base.py

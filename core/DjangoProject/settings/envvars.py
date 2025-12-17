@@ -3,7 +3,7 @@ from core.core.utils.settings import get_settings_from_environment
 
 """
 For instance:
-export CORESETTING_IN_DOCKER=true (Environment variables)
+export CORESETTINGS_IN_DOCKER=true (Environment variables)
 Could then be referenced as a global variable as:
 
 IN_DOCKER (where the value would be True)
