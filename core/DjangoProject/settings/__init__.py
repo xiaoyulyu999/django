@@ -20,5 +20,13 @@ if not os.path.isabs(LOCAL_SETTINGS_PATH):
 include(
     'base.py',
     'custom.py',
-    optional(LOCAL_SETTINGS_PATH)
+    optional(LOCAL_SETTINGS_PATH),
+    'envvars.py',
 )
+"""
+What happening in here:
+1. When Django starts, load the settings file at base.py
+2. Loading the custom.py settings file [this file only for this app settings only, and this is the reason why we 
+split the settings]
+3. Then check if there is local settings file and environment variables.
+"""
