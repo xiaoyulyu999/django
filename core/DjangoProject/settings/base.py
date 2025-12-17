@@ -4,7 +4,7 @@
 SECRET_KEY = NotImplemented
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
