@@ -1,6 +1,4 @@
-
-if IN_DOCKER: # type: ignore
+if IN_DOCKER:  # type: ignore
     print("In Docker")
 
-    assert MIDDLEWARE[0] == [ # type: ignore
-    'django.middleware.security.SecurityMiddleware']
+    assert MIDDLEWARE[0] == ['django.middleware.security.SecurityMiddleware']  # type: ignore
