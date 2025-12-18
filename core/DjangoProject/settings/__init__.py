@@ -1,5 +1,5 @@
 from pathlib import Path
-import os.path
+import os
 from split_settings.tools import include, optional
 
 
@@ -20,9 +20,10 @@ if not os.path.isabs(LOCAL_SETTINGS_PATH):
 include(
     'base.py',
     'custom.py',
+    'docker.py',
     optional(LOCAL_SETTINGS_PATH),
     'envvars.py',
-    'docker.py',
+
 )
 
 """
