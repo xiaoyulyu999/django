@@ -8,6 +8,6 @@ Could then be referenced as a global variable as:
 
 IN_DOCKER (where the value would be True)
 """
-# globals() - dictionary of global variables
+#  globals() - dictionary of global variables
 
 deep_update(globals(), get_settings_from_environment(ENVVAR_SETTINGS_PREFIX))  # type: ignore # noqa: F821
