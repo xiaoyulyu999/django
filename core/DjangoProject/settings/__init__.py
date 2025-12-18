@@ -23,7 +23,6 @@ include(
     'docker.py',
     optional(LOCAL_SETTINGS_PATH),
     'envvars.py',
-
 )
 
 """
