@@ -6,7 +6,7 @@ authors = [
     {name = "xiaoyulyu999",email = "info@bloomora.net"}
 ]
 license = {text = "MIT"}
-readme = "README.md"
+readme = "README.rst"
 requires-python = ">=3.12, <4.0"
 dependencies = [
     "django (>=6.0,<7.0)",
