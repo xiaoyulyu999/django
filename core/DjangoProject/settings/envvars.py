@@ -1,4 +1,4 @@
-from core.core.utils.collections import deep_update
+from core.core.utils.my_collections import deep_update
 from core.core.utils.settings import get_settings_from_environment
 
 """
